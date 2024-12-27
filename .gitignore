@@ -169,3 +169,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Mac 
+.DS_Store
+
+# Solution files
+initial_dataset.py
+dags/solution_dag.py
+dags/daily_summary.csv
+dags/processed_data
+dags/cleaned_data.parquet
