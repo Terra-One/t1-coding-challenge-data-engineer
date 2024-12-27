@@ -41,9 +41,7 @@ The provided CSV file, `energy_data.csv`, contains about one month of data, with
         - Compute hourly aggregates for **sell** orders: average sell price, min sell price, max sell price, total sell volume.  
         - Compute hourly aggregates for **buy** orders: average buy price, min buy price, max buy price, total buy volume.
         - Calculate **Volume-Weighted Average Price (VWAP)** for both all buy and separately all sell trades using:
-        $$
-        \text{VWAP} = \frac{\sum (\text{Price}_i \times \text{Volume}_i)}{\sum \text{Volume}_i}
-        $$
+        $`\text{VWAP} = \frac{\sum (\text{Price}_i \times \text{Volume}_i)}{\sum \text{Volume}_i}`$
 
    2. **Supply–Demand Equilibrium Calculation**  
       - Sort **sell** orders by ascending price to form a simplistic “supply curve.”
